@@ -20,7 +20,7 @@
     "prepare": "yarn contracts:compile && yarn graphql:fetch && yarn graphql:generate"
   },
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "devDependencies": {
     "@tanstack/eslint-plugin-query": "^4.29.9",
